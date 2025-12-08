@@ -64,13 +64,13 @@ Jika Anda menggunakan XAMPP, PHP, dan MySQL sudah menjadi satu paket di dalam ap
 **HTTPS:**
 
 ```bash
-$ git clone https://github.com/mrizkimaulidan/wangkas.git
+$ git clone https://github.com/Schrodinger31/wangkas.git
 ```
 
 **SSH:**
 
 ```bash
-$ git clone git@github.com:mrizkimaulidan/wangkas.git
+$ git clone git@github.com:Schrodinger31/wangkas.git
 ```
 
 2. Instal seluruh packages yang dibutuhkan.
