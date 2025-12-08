@@ -109,7 +109,17 @@ APP_TIMEZONE=
 $ php artisan migrate:fresh --seed
 ```
 
-7. Jalankan local server Laravel.
+7. Generate Key Aplikasi
+```bash
+$ php artisan key:generate
+```
+
+8. Hubungkan Storage
+```bash
+$ php artisan storage:link
+```
+
+9. Jalankan local server Laravel.
 
 ```bash
 $ php artisan serve
@@ -121,7 +131,7 @@ INFO  Server running on [http://127.0.0.1:8000].
 Press Ctrl+C to stop the server
 ```
 
-8. Jalankan juga development server untuk NPM.
+10. Jalankan juga development server untuk NPM.
 
 ```bash
 $ npm run dev
