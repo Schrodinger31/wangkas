@@ -19,7 +19,7 @@ use Livewire\Attributes\Title;
 use Livewire\Component;
 use Livewire\WithPagination;
 
-#[Title('Halaman Daftar Kas Minggu Ini')]
+#[Title('Halaman Daftar SPP Bulan Ini')]
 class CashTransactionCurrentWeekTable extends Component
 {
     use WithPagination;
@@ -57,8 +57,8 @@ class CashTransactionCurrentWeekTable extends Component
     public function mount(): void
     {
         // FIX FORMAT TANGGAL (WAJIB)
-        $this->currentWeek['startOfWeek'] = now()->startOfWeek()->toDateString();
-        $this->currentWeek['endOfWeek']   = now()->endOfWeek()->toDateString();
+        $this->currentWeek['startOfMonth'] = now()->startOfMonth()->toDateString();
+        $this->currentWeek['endOfMonth']   = now()->endOfMonth()->toDateString();
     }
 
     #[Computed]
@@ -90,8 +90,8 @@ class CashTransactionCurrentWeekTable extends Component
     {
         $summaries = $this->cashTransactionRepository->calculateTransactionSums();
         $paidStatus = $this->studentRepository->getStudentPaymentStatus(
-            $this->currentWeek['startOfWeek'],
-            $this->currentWeek['endOfWeek']
+            $this->currentWeek['startOfMonth'],
+            $this->currentWeek['endOfMonth']
         );
 
         return [

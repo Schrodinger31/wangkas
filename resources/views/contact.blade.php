@@ -31,7 +31,7 @@
                 <div class="card shadow contact-card">
                     <i class="bi bi-geo-alt-fill contact-icon"></i>
                     <h5 class="fw-bold">Alamat</h5>
-                    <p class="mb-0"> Jl. Kartini No.1, RT.01/RW.02, Kota Bogor</p>
+                    <p class="mb-0">Jl. Cipulir I No. 114 RT. 001/004, Kebayoran Lama, Jakarta Selatan 12230</p>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
                 <div class="card shadow contact-card">
                     <i class="bi bi-telephone-fill contact-icon"></i>
                     <h5 class="fw-bold">Telepon</h5>
-                    <p class="mb-0">(0251) 8324361</p>
+                    <p class="mb-0">021-72575323</p>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                 <div class="card shadow contact-card">
                     <i class="bi bi-envelope-fill contact-icon"></i>
                     <h5 class="fw-bold">Email</h5>
-                    <p class="mb-0">sman9bogor@ymail.com</p>
+                    <p class="mb-0">info@smkn43jkt.sch.id</p>
                 </div>
             </div>
 
@@ -58,8 +58,8 @@
                 <div class="card shadow contact-card">
                     <i class="bi bi-globe2 contact-icon"></i>
                     <h5 class="fw-bold">Website</h5>
-                    <a href="https://smanegeri9kotabogor.sch.id/" target="_blank">
-                        smanegeri9kotabogor.sch.id
+                    <a href="https://www.smkn43jkt.sch.id/" target="_blank">
+                        www.smkn43jkt.sch.id
                     </a>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                         allowfullscreen
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31878.24539252193!2d106.7604786!3d-6.5532527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c7cb00f7ea81%3A0x55a0d3f83a1d32dc!2sSMAN%209%20Bogor!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid">
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.208332328101!2d106.7753875!3d-6.2362476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0de7526c481%3A0xfbdc385c13edef63!2sState%20Vocational%20High%20School%2043%20Jakarta!5e0!3m2!1sen!2sid!4v1765159348315!5m2!1sen!2sid">
                     </iframe>
                 </div>
             </div>

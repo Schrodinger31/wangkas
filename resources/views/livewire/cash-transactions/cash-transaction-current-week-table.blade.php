@@ -48,7 +48,7 @@
               </div>
             </div>
             <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-              <h6 class="text-muted font-semibold">Sudah Membayar Minggu Ini</h6>
+              <h6 class="text-muted font-semibold">Sudah Membayar Bulan Ini</h6>
               <h6 class="font-extrabold mb-0">{{ $this->statistics['studentsPaidThisWeekCount'] }}</h6>
             </div>
           </div>
@@ -66,7 +66,7 @@
               </div>
             </div>
             <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-              <h6 class="text-muted font-semibold">Belum Membayar Minggu Ini</h6>
+              <h6 class="text-muted font-semibold">Belum Membayar Bulan Ini</h6>
               <h6 class="font-extrabold mb-0">{{ $this->statistics['studentsNotPaidThisWeekCount'] }}</h6>
             </div>
           </div>
@@ -82,7 +82,7 @@
           @if($this->statistics['studentsNotPaidThisWeekCount'] > 0)
           <h4>
             Daftar Yang Belum Membayar Minggu Ini
-            <span class="fw-bolder fst-italic">({{ $currentWeek['startOfWeek'] }} sampai {{ $currentWeek['endOfWeek']
+            <span class="fw-bolder fst-italic">({{ $currentWeek['startOfMonth'] }} sampai {{ $currentWeek['endOfMonth']
               }})</span>
           </h4>
           @endif
@@ -92,7 +92,7 @@
           @if($this->statistics['studentsNotPaidThisWeekCount'] > 0)
           <button type="button" class="btn btn-danger btn-block btn-xl font-bold" data-bs-toggle="modal"
             data-bs-target="#notPaidModal">
-            Ada <b>{{ $this->statistics['studentsNotPaidThisWeekCount'] }}</b> orang belum membayar pada minggu ini! <i
+            Ada <b>{{ $this->statistics['studentsNotPaidThisWeekCount'] }}</b> orang belum membayar pada bulan ini! <i
               class="bi bi-exclamation-triangle"></i>
           </button>
 
@@ -115,7 +115,7 @@
           @else
           <button type="button" class="btn btn-success btn-block btn-xl font-bold" data-bs-toggle="modal"
             data-bs-target="#notPaidModal">
-            Semua sudah membayar pada minggu ini! <i class="bi bi-emoji-smile"></i>
+            Semua sudah membayar pada bulan ini! <i class="bi bi-emoji-smile"></i>
           </button>
           @endif
         </div>
@@ -170,7 +170,7 @@
     <div class="col-12">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Daftar Transaksi Kas Minggu Ini</h5>
+          <h5 class="card-title">Daftar Transaksi SPP Bulan Ini</h5>
           <div class="d-flex flex-wrap justify-content-end mb-3 gap-3">
             <select wire:model.live="limit" class="form-select form-select-sm w-auto rounded">
               <option value="5">5</option>

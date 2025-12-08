@@ -12,7 +12,7 @@ use Livewire\Component;
 use Livewire\WithPagination;
 use Carbon\Carbon;
 
-#[Title('Halaman Filter Transaksi Kas')]
+#[Title('Halaman Filter Transaksi SPP')]
 class FilterCashTransaction extends Component
 {
     use WithPagination;

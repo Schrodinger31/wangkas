@@ -38,22 +38,28 @@
                 <div class="card shadow history-card">
 
                     <h2 class="history-title mb-4 text-center">
-                        Sejarah SMA Negeri 9 Kota Bogor
+                        Sejarah SMK Negeri 43 Jakarta
                     </h2>
 
                     <p class="history-text">
-                        Bangunan SMAN 9 Bogor memiliki sejarah panjang yang dimulai sejak era kolonial Belanda,
-                        di mana gedung tersebut awalnya dikenal sebagai <strong>Kartini School</strong> atau
-                        <strong>Sekolah Kartini</strong>, yang didirikan secara resmi pada tanggal <strong>2 Mei 1915</strong>.
-                        Pada zamannya, sekolah ini merupakan institusi pendidikan eksklusif yang ditujukan khusus
-                        bagi anak perempuan pribumi dari kalangan berada.
+                        Pada <strong>Tahun 1976 di Wilayah Kebayoran Lama Jakarta Selatan</strong> merupakan Wilayah yang belum
+                        memiliki jenis Lembaga pendidikan Formal seperti SMEA sebagai Tempat untuk memperoleh
+                        pendidikan tingkat menengah yang menjurus pada Pendidikan Ekonomi atau Kejuruan.
+
+                        Atas dasar kebutuhan tersebut diatas pada tahun 1976  atas Prakarsa dan inisiatif
+                        <strong>Ibu Dra. RR. Siti Sofinah, Bapak Drs. M Yusuf dan Drs. Bapak Soleh Saabah</strong> berupaya untuk memperoleh izin
+                        pengoperasian Sekolah Menengah Ekonomi Atas (SMEA) yang diberikan nama <strong>SMA 12 Kelas</strong> jauh yang menginduk pada
+                        <strong>SMEA Negeri 12</strong> yang beralamat di <strong>Jalan Melati Cilandak Jakarta Selatan</strong> yang bangunannya berada di Cipulir I yang diperuntukan untuk Sekolah SD.
                     </p>
 
                     <p class="history-text mt-3">
-                        Setelah melalui perjalanan sejarah panjang dan perubahan fungsi bangunan pasca kemerdekaan,
-                        <strong>SMAN 9 Bogor resmi didirikan pada Mei 2001</strong> sebagai filial dari SMAN 6 Bogor.
-                        Kini sekolah ini telah menjadi institusi mandiri yang berfokus pada pendidikan karakter,
-                        prestasi akademik dan non-akademik, serta kesiapan menghadapi tantangan global.
+                        Dengan kegigihan <strong>Ibu Dra. RR. Siti Sofinah dan Kawan-kawan</strong> kemudian mengalami perkembangan berdasarkan <strong>SK Menteri Pendidikan
+                        dan Kebudayaan Republik Indonesia No. 022/0/1981 tentang Penunggalan Sekolah</strong> dari <strong>SMEA 12 Filial</strong> terhitung mulai tanggal 1 Juli 1981
+                        menjadi sekolah Negeri dengan nama <strong>SMEA Negeri 25 Jakarta</strong>.
+
+                        Berdasarkan Keputusan <strong>Menteri Pendidikan Dan Kebudayaan Republik Indonesia No. 036/0/1997 tentang Perubahan Nomenklatur SMKTA Menjadi SMK Serta Organisasi Dan Tata Kerja SMK,
+                        SMEA Negeri 25 Jakarta, Jalan Cipulir 1 Kecamatan Kebayoran Lama Kotamadya Jakarta Selatan Keputusan Kelembagaan 0220/0/1981 14-07-81 Sekolah</strong> Hasil Perubahan Menjadi 
+                        <strong>SMK Negeri 43 Jakarta Kantor 212472 Kecamatan Kebayoran Lama Kota Administrasi Jakarta Selatan</strong>.
                     </p>
 
                 </div>
@@ -66,12 +72,10 @@
             {{-- Card Visi --}}
             <div class="col-lg-5">
                 <div class="card shadow visi-misi-card h-100">
-                    <h2 class="visi-misi-title mb-3 text-center">Visi SMAN 9 Bogor</h2>
+                    <h2 class="visi-misi-title mb-3 text-center">Visi SMKN 43 Jakarta</h2>
 
                     <p class="visi-misi-text">
-                        Visi sekolah ini diwujudkan melalui berbagai misi yang mengarah pada pembentukan generasi yang:
-                        <strong>bertakwa, cerdas, berkarakter, menguasai IPTEK, berwawasan lingkungan,</strong>
-                        dan memiliki <strong>daya saing global</strong>.
+                        Menghasilkan lulusan berintegritas, profesional, berjiwa wirausaha serta berwawasan global dilandasi IMTAQ dan IPTEK.
                     </p>
                 </div>
             </div>
@@ -79,14 +83,14 @@
             {{-- Card Misi --}}
             <div class="col-lg-5">
                 <div class="card shadow visi-misi-card h-100">
-                    <h2 class="visi-misi-title mb-3 text-center">Misi SMAN 9 Bogor</h2>
+                    <h2 class="visi-misi-title mb-3 text-center">Misi SMKN 43 Jakarta</h2>
 
                     <ul class="misi-list">
-                        <li>Meningkatkan keimanan dan ketakwaan siswa.</li>
-                        <li>Menanamkan dan memperkuat karakter unggul.</li>
-                        <li>Meningkatkan prestasi akademik serta non-akademik.</li>
-                        <li>Mengoptimalkan pemanfaatan IPTEK dalam pembelajaran.</li>
-                        <li>Mengembangkan budaya sekolah yang sehat dan berwawasan lingkungan.</li>
+                        <li>Mengembangkan potensi peserta didik berperilaku sesuai norma dan etika yang diterapkan di sekolah, dunia industri dan dunia kerja melalui projek penguatan profil pelajar pancasila.</li>
+                        <li>Meningkatkan kompetensi peserta didik sesuai SNP dan LSP agar kompeten, unggul, dan bertanggung jawab.</li>
+                        <li>Mengembangkan potensi peserta didik secara optimal untuk menjadi wirausahawan yang kreatif dan inovatif.</li>
+                        <li>Mengembangkan kemampuan komunikasi peserta didik yang interaktif didukung kemampuan IT sesuai dengan tuntutan global.</li>
+                        <li>Mengembangkan potensi peserta didik berwawasan lingkungan dan kearifan lokal.</li>
                     </ul>
                 </div>
             </div>

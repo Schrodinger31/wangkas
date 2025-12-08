@@ -104,19 +104,19 @@
 
             <x-sidebar.sidebar-item class="has-sub" :active="request()->routeIs('cash-transactions.*')">
               <x-sidebar.sidebar-link href="#" icon="bi bi-cash-stack">
-                Kas
+                SPP
               </x-sidebar.sidebar-link>
 
               <ul class="submenu">
                 <x-sidebar.submenu-item :active="request()->routeIs('cash-transactions.index')">
                   <x-sidebar.submenu-link :href="route('cash-transactions.index')" wire:navigate>
-                    Kas
+                    SPP
                   </x-sidebar.submenu-link>
                 </x-sidebar.submenu-item>
 
                 <x-sidebar.submenu-item :active="request()->routeIs('cash-transactions.filter')">
                   <x-sidebar.submenu-link :href="route('cash-transactions.filter')" wire:navigate>
-                    Filter Kas
+                    Filter SPP
                   </x-sidebar.submenu-link>
                 </x-sidebar.submenu-item>
               </ul>
