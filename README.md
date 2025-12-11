@@ -64,7 +64,7 @@ Jika Anda menggunakan XAMPP, PHP, dan MySQL sudah menjadi satu paket di dalam ap
 **HTTPS:**
 
 ```bash
-$ git clone https://github.com/mrizkimaulidan/wangkas.git
+$ git clone https://github.com/Schrodinger31/wangkas.git
 ```
 
 **SSH:**
