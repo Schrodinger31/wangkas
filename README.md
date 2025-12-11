@@ -73,7 +73,13 @@ $ git clone https://github.com/Schrodinger31/wangkas.git
 $ git clone git@github.com:mrizkimaulidan/wangkas.git
 ```
 
-2. Instal seluruh packages yang dibutuhkan.
+2. Masuk Ke Direktori Yang Sudah Di Clone
+
+```bash
+$ cd wangkas
+```
+
+3. Instal seluruh packages yang dibutuhkan.
 
 ```bash
 $ npm install
@@ -83,7 +89,7 @@ $ npm install
 $ composer install
 ```
 
-3. Siapkan database dan atur value pada file `.env` sesuai dengan konfigurasi Anda.
+4. Siapkan database dan atur value pada file `.env` sesuai dengan konfigurasi Anda.
 
 ```bash
 DB_DATABASE=
@@ -91,35 +97,35 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-4. Ubah value `APP_NAME=` pada file `.env` menjadi nama aplikasi yang Anda inginkan.
+5. Ubah value `APP_NAME=` pada file `.env` menjadi nama aplikasi yang Anda inginkan.
 
 ```bash
 APP_NAME=
 ```
 
-5. Ubah value `APP_TIMEZONE=` pada file `.env` menjadi lokasi Timezone Anda.
+6. Ubah value `APP_TIMEZONE=` pada file `.env` menjadi lokasi Timezone Anda.
 
 ```bash
 APP_TIMEZONE=
 ```
 
-6. Migrate seluruh migrasi dan seeding data palsu.
+7. Migrate seluruh migrasi dan seeding data palsu.
 
 ```bash
 $ php artisan migrate:fresh --seed
 ```
 
-7. Generate Key Aplikasi
+8. Generate Key Aplikasi
 ```bash
 $ php artisan key:generate
 ```
 
-8. Hubungkan Storage
+9. Hubungkan Storage
 ```bash
 $ php artisan storage:link
 ```
 
-9. Jalankan local server Laravel.
+10. Jalankan local server Laravel.
 
 ```bash
 $ php artisan serve
@@ -131,7 +137,7 @@ INFO  Server running on [http://127.0.0.1:8000].
 Press Ctrl+C to stop the server
 ```
 
-10. Jalankan juga development server untuk NPM.
+11. Jalankan juga development server untuk NPM.
 
 ```bash
 $ npm run dev
