@@ -23,8 +23,8 @@ Jika Anda menggunakan XAMPP, PHP, dan MySQL sudah menjadi satu paket di dalam ap
 -   CRUD Pelajar
 -   CRUD Kelas
 -   CRUD Jurusan
--   Transaksi kas
--   Filter transaksi kas
+-   Transaksi SPP
+-   Filter transaksi SPP
 -   CRUD Administrator
 -   Pengaturan Profil
 
